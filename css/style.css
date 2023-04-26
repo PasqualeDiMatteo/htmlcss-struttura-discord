@@ -1,0 +1,46 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+/* header */
+
+header{
+    background-color: skyblue;
+    padding: 20px;
+}
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.navbar{
+    background-color: orange;
+    font-size: 25px;
+}
+
+.logo{
+    flex-basis: 25%;
+    padding: 5px;
+}
+
+.nav{
+    flex-basis: 50%;
+    text-align: center;
+    padding: 5px;
+}
+
+.login{
+    flex-basis: 25%;
+    text-align: right;
+    padding: 5px;
+}
+
+/* utilities */
+
+.border{
+    border: 3px dashed black;
+}
