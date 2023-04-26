@@ -108,13 +108,9 @@ footer{
     
 }
 
-.grid-darkblue{
-    border-bottom: 2px solid white;
-    
-}
-
 .darkblue-first{
     padding-bottom: 50px;
+    border-bottom: 2px solid white;
 }
 
 .darkblue-second{
@@ -129,7 +125,6 @@ footer{
 .nav-footer{
     font-size: 20px;
     padding: 5px;
-    border: 2px dashed black;
     background-color: rgb(255, 182, 193);
 }
 
