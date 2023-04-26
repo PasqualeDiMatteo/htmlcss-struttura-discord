@@ -4,6 +4,14 @@
  box-sizing: border-box;
 }
 
+:root{
+    --pa-xs:5px;
+    --wid-m:500px;
+    --wid-l:600px;
+    --wid-xl:800px;
+    --pa-xl:50px;
+}
+
 /* header */
 
 header{
@@ -24,19 +32,19 @@ header{
 
 .logo{
     flex-basis: 25%;
-    padding: 5px;
+    padding: var(--pa-xs);
 }
 
 .nav{
     flex-basis: 50%;
     text-align: center;
-    padding: 5px;
+    padding: var(--pa-xs);
 }
 
 .login{
     flex-basis: 25%;
     text-align: right;
-    padding: 5px;
+    padding: var(--pa-xs);
 }
 
 /* main */
@@ -52,7 +60,7 @@ header{
 
 /* card */
 .card-violet{
-    max-width: 800px;
+    max-width: var(--wid-xl);
     min-height: 400px;
     margin: 0 auto;
     background-color: rgb(238, 130, 238);
@@ -60,31 +68,31 @@ header{
 }
 
 .card-dodgerblue{
-    min-height: 500px;
+    min-height: var(--wid-m);
     background-color: dodgerblue;
     flex-basis: 60%;
 }
 
 .card-pink{
-    min-height: 500px;
+    min-height: var(--wid-m);
     background-color: pink;
     flex-basis: 40%;
 }
 
 .card-green{
-    min-height: 800px;
+    min-height: var(--wid-xl);
     background-color: green;
     flex-basis: 100%;
 }
 
 .card-coral{
-    min-height: 600px;
+    min-height: var(--wid-l);
     flex-basis: 30%;
     background-color: rgb(240, 128, 128);
 }
 
 .card-seagreen{
-    min-height: 600px;
+    min-height: var(--wid-l);
     flex-basis: 70%;
     background-color: rgb(32, 178, 170);
     display: flex;
@@ -109,12 +117,12 @@ footer{
 }
 
 .darkblue-first{
-    padding-bottom: 50px;
+    padding-bottom: var(--pa-xl);
     border-bottom: 2px solid white;
 }
 
 .darkblue-second{
-    padding-top: 50px;
+    padding-top: var(--pa-xl);
 }
 
 .column{
@@ -124,7 +132,7 @@ footer{
 
 .nav-footer{
     font-size: 20px;
-    padding: 5px;
+    padding: var(--pa-xs);
     background-color: rgb(255, 182, 193);
 }
 
@@ -135,6 +143,6 @@ footer{
 }
 
 .pa-50{
-    padding: 50px 0;
+    padding: var(--pa-xl) 0;
 
 }
