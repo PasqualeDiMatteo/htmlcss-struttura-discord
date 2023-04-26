@@ -43,11 +43,14 @@ header{
 
 .grid-blue{
     background-color: blue;
-    padding: 50px 0;
+}
+
+.grid-grey{
+    background-color: grey;
 }
 
 /* card */
-.card-pink{
+.card-violet{
     max-width: 800px;
     min-height: 400px;
     margin: 0 auto;
@@ -55,8 +58,25 @@ header{
     
 }
 
+.card-dodgerblue{
+    min-height: 500px;
+    background-color: dodgerblue;
+    flex-basis: 60%;
+}
+
+.card-pink{
+    min-height: 500px;
+    background-color: pink;
+    flex-basis: 40%;
+}
+
 /* utilities */
 
 .border{
     border: 3px dashed black;
+}
+
+.pa-50{
+    padding: 50px 0;
+
 }
